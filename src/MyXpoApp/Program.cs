@@ -6,7 +6,6 @@ using MyXpoApp.Data;
 
 MyXpoDbInitializer.InitDb();
 
-var doExit = false;
 do
 {
 	RunTest();
