@@ -2,14 +2,14 @@
 
 namespace MyXpoApp.Data;
 
-public class StatisticInfoDbR : XPLiteObject
+public class StatisticInfoDbr : XPLiteObject
 {
 	private Guid key;
 	private string info = string.Empty;
 	private DateTime date;
 
 
-	public StatisticInfoDbR(Session session) : base(session) { }
+	public StatisticInfoDbr(Session session) : base(session) { }
 
 
 	[Key(true)]
